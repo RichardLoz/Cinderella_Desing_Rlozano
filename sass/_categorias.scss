@@ -1,0 +1,57 @@
+.row
+{
+  margin: 10px -16px;
+  height: auto;
+  width: 100%;
+}
+  
+/* PADDING ENTRE COLUMNAS */
+.row,
+.row > .column {
+  padding: 8px;
+}
+  
+/* SE CREAN 3 COLUMNAS IGUAL QUE FLOTEN UNA AL LADO DE OTRA */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+  
+
+/* LIMPIA FLOTADORES DESPUES DE LAS FILAS */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+
+/* CLASE "CONTENT" */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+  
+/* LA CLASE "SHOW" SE AGREGA A LOS ELEMENTOS FILTRADOS */
+.show {
+  display: block;
+}
+  
+/* ESTILOS DE LOS BOTONES */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+  
+.btn:hover {
+  background-color: #ddd;
+}
+  
+.btn.active {
+  background-color: #666;
+  color: white;
+}

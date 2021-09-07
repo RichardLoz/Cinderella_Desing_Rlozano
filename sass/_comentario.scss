@@ -1,0 +1,121 @@
+.container__comentario
+{
+    position: relative;
+    width: 98%;
+}
+
+#comentario__img img
+{
+    width: 400px;
+    height: 450px;
+    border: solid 2px red;
+   
+}
+
+
+.overlay 
+{
+    position:absolute;
+    bottom: 0;
+    left: 111px;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 394px;
+    height: 450px;
+    transform: scale(0);
+    transition: .3s ease;
+}  
+
+
+.comen:hover .overlay 
+{
+    transform: scale(1);
+}
+  
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+/* SEGUNDO COMENTARIO */
+
+.overlay__2 
+{
+    position: absolute;
+    bottom: 0;
+    left: 111px;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 394px;
+    height: 450px;
+    transform: scale(0);
+    transition: .3s ease;
+}  
+
+
+.comen__2:hover .overlay__2
+{
+    transform: scale(1);
+}
+  
+  
+.text__2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* TERCER COMENTARIO */
+
+.overlay__3
+{
+    position: absolute;
+    bottom: 0;
+    left: 111px;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 394px;
+    height: 450px;
+    transform: scale(0);
+    transition: .3s ease;
+}  
+
+
+.comen__3:hover .overlay__3 
+{
+    transform: scale(1);
+}
+  
+  
+.text__3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image
+{
+    background-position: center;
+}
+

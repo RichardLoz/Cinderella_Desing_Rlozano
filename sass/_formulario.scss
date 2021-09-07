@@ -1,0 +1,105 @@
+ :root
+ {
+     --color-dark: #15181f;
+     --color-dark-x: #2d343f;
+     --color-dark-xx: #1f232b;
+     --color-ligth: #ffffff;
+     --color-grey: #f5f6f8;
+ 
+ }
+
+ .bg-ligth
+ {
+     background-color: var(--color-ligth)!important;
+ }
+
+ .bg-dark
+ {
+     background-color: var(--color-dark)!important;
+ }
+
+ .p-6
+ {
+     padding: 4rem 7rem;
+ }
+
+ .contact-box
+ {
+     padding: 3rem;
+ }
+
+ .btn
+ {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    min-width: 10rem;
+    color: black;
+ }
+
+ .btn-outline-dark
+ {
+     border: 2px solid var(--color-dark-xx);
+     background-color: transparent !important;
+ }
+
+ .text_form
+ {
+     color: var(--color-ligth);
+     background-color: var(--color-grey);
+     font-size: 1.1rem;
+     font-weight: 300;
+     letter-spacing: .05rem;
+ }
+
+ .form-control
+ {
+     background-color: var(--color-dark-xx);
+     border: 2px solid var(--color-dark-xx);
+     border-radius: .2rem;
+     padding: 1.4rem 1rem;
+ }
+
+ .register-bg
+ {
+     background-image: url(../imagenes/formulario/form_fondo.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 100vh; 
+ }
+
+ .testimonial
+ {
+     bottom: 10px;
+ }
+
+ /* RESPONSIVE */
+
+ @media (max-width: 575.98px)
+{
+    .p-6
+    {
+        padding: 2rem;
+    }
+
+    .contact-box
+    {
+        padding: 0;
+    }
+
+    .width-100  /* CON ESTA CLASE LOS BOTONES ABARCAN EL 100% */
+    {
+        width: 100% ;  
+    }
+}
+
+/* MEDIA PARA LA IMAGEN */
+@media (max-width: 1200px)
+{
+    .register-bg
+    {
+        min-height: 50vh;
+    }
+
+}
+
